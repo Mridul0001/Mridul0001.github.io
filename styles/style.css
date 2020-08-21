@@ -1,0 +1,271 @@
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
+
+/*common styles*/
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+    position: relative;
+    padding: 0;
+    margin:auto;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/*main container*/
+#main{
+    max-width: 90%;
+}
+
+/*owl carousel - stretching cards to equal and maximum lengths*/
+.owl-carousel .owl-stage {
+    display: flex;
+}
+
+.owl-carousel .item {
+    width: auto;
+    height: 100%;
+}
+
+/**
+*cards and badge styling
+**/
+/*Card headings*/
+.tech-heading{
+  font-weight: bolder;
+  text-align: center;
+  font-size: 1.21rem;
+}
+
+/*about card*/
+.about-card{
+  max-width: 98%;
+  margin: auto;
+}
+
+/*Badges*/
+.badge-icon{
+  height: 100px;
+  width: 100px;
+  padding: 2px;
+  margin: 10px;
+  cursor: pointer;
+}
+.badge-card{
+  border: 2px solid white;
+  max-width: 80%;
+  margin: auto;
+  transition: transform 0.3s;
+}
+
+.badge-card:hover{
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px 0 #0c0c0c36, 0 6px 20px 0 #0c0c0c36;
+}
+
+/*Technologies*/
+
+.tech-card:hover{
+  box-shadow: 0 4px 8px 2px #5a606770, 0 6px 20px 2px #5a606770;
+}
+
+.tech-logo{
+  height: 46px;
+  width: 46px;
+}
+
+.tech-list{
+  padding: 10px;
+}
+
+.tech-text{
+  line-height: 46px;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+/*Projects*/
+.proj-card{
+  transition: transform .3s;
+  animation: rainbow 14s infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.proj-card:hover{
+  transform: scale(0.97);
+}
+
+/*Education*/
+.edu-card{
+  margin-left: auto;
+  margin-right: auto;
+  transition: transform 0.2s;
+}
+
+.edu-card:hover{
+  transform: scale(1.01);
+  box-shadow: 0 4px 8px 2px #5a606770, 0 6px 20px 2px #5a606770;
+}
+
+/*Experience*/
+.exp-card{
+  max-width: 98%;
+  margin: auto;
+  transition: transform 0.2s;
+}
+
+.exp-card:hover{
+  transform: scale(1.01);
+  box-shadow: 0 4px 8px 2px #5a606770, 0 6px 20px 2px #5a606770;
+}
+
+/*Connect section*/
+.connect-icon{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 8px;
+}
+
+.connect-section{
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+/**
+*headings, header, and footer
+**/
+
+/*top level headings*/
+.top-level-heading{
+  font-family: 'Krona One', sans-serif;
+  background-color: #EBEDE9;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 4px;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  padding: 8px;
+  animation: rainbow 14s infinite;
+  animation-timing-function: ease-in-out;
+}
+/*about heading*/
+#about{
+  margin-top: 10px;
+}
+
+.text-gray-light{
+  fill: gray;
+}
+
+/*header and footer*/
+.header, .footer{
+  background-color: #2E3338;
+}
+
+.footer{
+  font-family: sans-serif;
+  padding: 25px;
+  width: 100%;
+  margin: 0;
+}
+
+/**
+*Others
+**/
+/*view buttons*/
+.view-button{
+  margin-top: 8px;
+}
+
+/*sub headings*/
+.sub-heading{
+  font-weight: bolder;
+  font-size: 1.8rem;
+}
+
+/*about text*/
+.about-text{
+  font-size: 1.2rem;
+}
+
+/*Company name*/
+.company-name{
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+/*card foot text*/
+.foot-text{
+  font-family: 'Roboto Mono', monospace;
+}
+
+/*horizontal rule*/
+hr{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 15%;
+  border-top: 1px solid #EBEDE9;
+}
+
+/**
+*media queries
+**/
+@media (max-width:540px) {
+  #main{
+      max-width: 94%;
+  }
+  .connect-icon{
+    padding: 5px;
+  }
+
+  .badge-card{
+    margin: 30px auto 30px auto;
+    transition: transform 0.2s;
+  }
+
+  .badge-card:hover{
+    transform: scale(1.03);
+  }
+
+  hr{
+    max-width: 35%;
+  }
+
+}
+
+@media (max-width: 350px){
+  #main{
+      max-width: 98%;
+  }
+  .connect-icon{
+    padding: 3px;
+  }
+  .connect-icon-svg{
+    height: 26px;
+    width: 26px;
+  }
+}
+
+/**
+*animations
+**/
+@keyframes rainbow {
+  0%{
+    border:2px solid #9400D3;
+  }16%{
+    border:2px solid #4B0082;
+  }32%{
+    border:2px solid #0000FF;
+  }48%{
+    border:2px solid #00FF00;
+  }64%{
+    border:2px solid #FFFF00;
+  }80%{
+    border:2px solid #FF7F00;
+  }100%{
+    border:2px solid #FF0000;
+  }
+}
