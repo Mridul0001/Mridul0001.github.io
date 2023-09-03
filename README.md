@@ -33,7 +33,7 @@ Here's a summary of my educational background and work experience:
 
 ## Contact Me
 
-Feel free to reach out to me via email at [connect@mridulmahajan.com](mailto:connect@mridulmahajan.com) or through my [LinkedIn](https://www.linkedin.com/in/mridul0001/) profile. 
+Feel free to reach out to me via email at [mridulmahajan0001@gmail.com](mailto:mridulmahajan0001@gmail.com) or through my [LinkedIn](https://www.linkedin.com/in/mridul0001/) profile. 
 
 ## Technologies
 
