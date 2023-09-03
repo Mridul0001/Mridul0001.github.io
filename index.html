@@ -1,405 +1,241 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="description" content="It is my Personal Portfolio website">
-        <meta name="keywords" content="Mridul Mahajan, mridul, java, developer, freelancer, iot expert">
-        <meta name="author" content="Mridul Mahajan">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
-        <title>Mridul Mahajan</title>
-        <link rel="icon" href="res/icons/fav.png" type="image/x-icon">
-        <!--Owl Carousel styles-->
-        <link rel="stylesheet" href="plugins/owlcarousel/owl.carousel.css">
-        <link rel="stylesheet" href="plugins/owlcarousel/owl.theme.default.css">
-        <!-- Bootstrap -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
-        <!-- Local styles -->
-        <link rel="stylesheet" type="text/css" href="styles/style.css">
-        <!-- Animate.style -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
-    </head>
+<html>
+<head>
+    <title>Mridul Mahajan - Full Stack Developer | Software Engineer | Freelancer</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Experienced Software Engineer specializing in building intricate and scalable systems. Skilled in Backend, Frontend, DevOps, and System Design. Explore my portfolio.">
+    <meta name="keywords" content="Software Engineer, Full Stack Developer, Freelancer, Senior Software Engineer, Backend Development, Frontend Development, DevOps, System Design, Unit Testing, Noida, India, Java, Java 8, Java 17, Spring Boot, Angular, RESTful APIs, MongoDB, MySQL, Apache Velocity, Caffeine Cache, Redis, OpenJ9, RDBMS, Data Structures and Algorithms, JavaScript">
+    <meta name="author" content="Mridul Mahajan">
+    <link rel="canonical" href="https://mridulmahajan.com" />
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="./resources/icon.ico">
+</head>
 
-    <body data-spy="scroll" data-target="#pagetop" data-offset="10" data-method="offset" class="bg-dark">
-        <!---Navigation bar--->
-        <nav class="navbar sticky-top navbar-expand-lg navbar-dark header navbar" id="pagetop">
-            <a class="navbar-brand" href="https://www.mridulmahajan.me">
-                <img src="res/logo/logo.png" width="60" height="60" alt="" loading="lazy">
-                Mridul Mahajan
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                  <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#tech">Technologies</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#project">Projects</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#certification">Education &amp; Certifications</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#experience">Experience</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#experience">Let's Connect</a>
-                  </li>
-                </ul>
-            </div>
-        </nav>
-
-        <div class="container" id="main">
-            <!---About section--->
-            <div class="row top-level-heading" id="about">
-                <div class="col">About me</div>
-            </div>
-            <div class="row text-white text-center">
-              <div class="card mb-3 bg-primary about-card">
-                <div class="row no-gutters">
-                  <div class="col-md-4">
-                    <img class="card-img" src="res/logo/logo.gif" alt="profile pic">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <p class="card-text about-text">Hi! I am Mridul Mahajan. I am a software developer having a great passion for technology.
-                         I have a degree in Computer Science Engineering from Chandigarh University. Apart from my profession,
-                         I love watching anime, eating pizza, listening music, reading books and playing flute.
-                       </p>
-                    </div>
-                    <div class="card-footer badge-card">
-                      <p class="sub-heading">My Badges</p>
-                      <a tabindex="0" data-toggle="popover" data-trigger="focus" data-placement="auto" title="HackerRank" data-content="JAVA programming badge on HackerRank(Maxed out)"><img class="badge-icon" src="res/badges/java_hr.png" alt="hackerrank java badge image"></a>
-                      <a tabindex="0" data-toggle="popover" data-trigger="focus" data-placement="auto" title="HackerRank" data-content="Problem solving badge on HackerRank(1 star left to max)"><img class="badge-icon" src="res/badges/ps_hr.png" alt="hackerrank problem solving badge image"></a>
-                      <a tabindex="0" data-toggle="popover" data-trigger="focus" data-placement="auto" title="GitHub" data-content="Arctic Code Vault Contributor Badge">
-                        <svg class="text-gray-light mr-1 badge-icon" viewBox="0 0 16 16" version="1.1" aria-hidden="true">
-                          <path d="M8.5.75a.75.75 0 00-1.5 0v5.19L4.391 3.33a.75.75 0 10-1.06
-                          1.061L5.939 7H.75a.75.75 0 000 1.5h5.19l-2.61 2.609a.75.75 0 101.061 1.06L7
-                          9.561v5.189a.75.75 0 001.5 0V9.56l2.609 2.61a.75.75 0 101.06-1.061L9.561 8.5h5.189a.75.75 0
-                          000-1.5H9.56l2.61-2.609a.75.75 0 00-1.061-1.06L8.5 5.939V.75z">
-                          </path>
-                        </svg>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!---Technologies section--->
-            <div class="row top-level-heading"  id="tech">
-                <div class="col">Technologies</div>
-            </div>
-            <div class="row technologies-card bg-info">
-              <div class="tech-item">
-                <img src="res/logo/java.svg" class="tech-logo" alt="java icon">
-                <span class="tech-text">Java</span>
-              </div>
-
-              <div class="tech-item">
-                <img src="res/logo/rlang.svg" class="tech-logo" alt="r icon">
-                <span class="tech-text">R Language</span>
-              </div>
-
-              <div class="tech-item">
-                <img src="res/logo/dartlang.svg" class="tech-logo" alt="dart icon">
-                <span class="tech-text">Dart</span>
-              </div>
-
-              <div class="tech-item">
-                <img src="res/logo/springio.svg" class="tech-logo" alt="spring-boot icon">
-                <span class="tech-text">Spring Boot</span>
-              </div>
-
-              <div class="tech-item">
-                <img src="res/logo/flutterio.svg" class="tech-logo" alt="flutter icon">
-                <span class="tech-text">Flutter</span>
-              </div>
-
-              <div class="tech-item">
-                <img src="res/logo/angular.svg" class="tech-logo" alt="angular icon">
-                <span class="tech-text">Angular</span>
-              </div>
-
-              <div class="tech-item">
-                <img src="res/logo/firebase.svg" class="tech-logo" alt="firebase icon">
-                <span class="tech-text">Firebase</span>
-              </div>
-
-              <div class="tech-item">
-                <img src="res/logo/arduino.svg" class="tech-logo" alt="arduino icon">
-                <span class="tech-text">Arduino</span>
-              </div>
-
-              <div class="tech-item">
-                <img src="res/logo/rasp.svg" class="tech-logo" alt="raspberry pi icon">
-                <span class="tech-text">RaspberryPI</span>
-              </div>
-
-              <div class="tech-item">
-                <img src="res/logo/mongodb.svg" class="tech-logo" alt="mongodb icon">
-                <span class="tech-text">MongoDB</span>
-              </div>
-              
-              <div class="tech-item">
-                <img src="res/logo/js.svg" class="tech-logo" alt="javascript icon">
-                <span class="tech-text">Javascript</span>
-              </div>
-
-              <div class="tech-item">
-                <img src="res/logo/html.svg" class="tech-logo" alt="html icon">
-                <span class="tech-text">HTML</span>
-              </div>
-
-              <div class="tech-item">
-                <img src="res/logo/css.svg" class="tech-logo" alt="css icon">
-                <span class="tech-text">CSS</span>
-              </div>
-
-              <div class="tech-item">
-                <img src="res/logo/jquery.svg" class="tech-logo" alt="jquery icon">
-                <span class="tech-text">jQuery</span>
-              </div>
-
-              <div class="tech-item">
-                <img src="res/logo/node.svg" class="tech-logo" alt="node-JS icon">
-                <span class="tech-text">Node JS</span>
-              </div>
-
-              <div class="tech-item">
-                <img src="res/logo/bootstrap.svg" class="tech-logo" alt="bootstrap icon">
-                <span class="tech-text">Bootstrap</span>
-              </div>
-            </div>
-
-            <!-- Project -->
-            <div class="row top-level-heading" id="project">
-              <div class="col">Projects</div>
-            </div>
-            <div class="row">
-              <div class="col">
-                <div class="owl-carousel owl-theme card-deck">
-                  <div class="card item proj-card">
-                    <div class="highlighted bg-primary">Highlighted</div>
-                    <img src="res/images/notes.png" class="card-img-top" alt="image for representational purpose">
-                    <div class="card-body">
-                      <h5 class="card-title sub-heading">Only Notes</h5>
-                      <p class="card-text">It's a special project to me. My first personal project in which I started from development phase and went through internal testing upto production release on play store. I learned a lot from this project.
-                        This app can store notes in a secure manner with end-to-end encryption.
-                      </p>
-                      <ul>
-                        <li>Flutter</li>
-                        <li>Firebase</li>
-                        <li>Play console</li>
-                        <li>Google assistant integration</li>
-                      </ul>
-                    </div>
-                    <div class="card-footer text-center">
-                      <a class="btn btn-primary" href="https://github.com/Mridul0001/only-notes" target="_blank">Check out this project</a>
-                    </div>
-                  </div>
-                  <div class="card item proj-card">
-                    <img src="res/images/sl.png" class="card-img-top" alt="image for representational purpose">
-                    <div class="card-body">
-                      <h5 class="card-title sub-heading">Smart Lights</h5>
-                      <p class="card-text">This is an IoT based project. Main component used is an Arduino Uno R3 micro-controller.
-                      It can control house lights with voice command and also via an mobile application.</p>
-                      <ul>
-                        <li>Internet of Things</li>
-                        <li>Arduino</li>
-                        <li>Google assistant</li>
-                        <li>C/C++</li>
-                      </ul>
-                    </div>
-                    <div class="card-footer text-center">
-                      <a class="btn btn-primary" href="https://www.instructables.com/id/Control-House-Lights-With-Google-Assistant-Using-A/" target="_blank">Check out this project</a>
-                    </div>
-                  </div>
-                  <div class="card item proj-card">
-                    <img src="res/images/ws.png" class="card-img-top" alt="image for representational purpose">
-                    <div class="card-body">
-                      <h5 class="card-title sub-heading">Weather Station</h5>
-                      <p class="card-text">Another IoT based project again with Arduino Uno R3 micro-controller.
-                      A mini weather station which can monitor temperature, humidity, air pressure and rain. All these parameters are
-                     measured continuously and all the data is sent to remote server which then can be analysed visually.</p>
-                     <ul>
-                       <li>Internet of Things</li>
-                       <li>Arduino</li>
-                       <li>ThingSpeak</li>
-                       <li>C, C++</li>
-                     </ul>
-                    </div>
-                    <div class="card-footer text-center">
-                      <a class="btn btn-primary" href="https://www.instructables.com/id/Mini-Weather-Station-Using-Arduino-and-ThingSpeak/" target="_blank">Check out this project</a>
-                    </div>
-                  </div>
-                  <div class="card item proj-card">
-                    <img src="res/images/pc.png" class="card-img-top" alt="image for representational purpose">
-                    <div class="card-body">
-                      <h5 class="card-title sub-heading">Pomodoro Clock</h5>
-                      <p class="card-text">Based on the popular Pomodoro technique. This project is built using the powerful javascript library jQuery.
-                       It has a nice UI so that users can interact and set break and session lengths along with other functionalities such as start/stop and reset.
-                      Users will be notified at set intervals with a beep sound</p>
-                      <ul>
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>Bootstrap</li>
-                        <li>Javascript, jQuery</li>
-                      </ul>
-                    </div>
-                    <div class="card-footer text-center">
-                      <a class="btn btn-primary" href="https://codepen.io/Mridul0001/full/zYvPKbO" target="_blank">Check out this project</a>
-                    </div>
-                  </div>
-                  <div class="card item proj-card">
-                    <img src="res/images/stgn.png" class="card-img-top" alt="image for representational purpose">
-                    <div class="card-body">
-                      <h5 class="card-title sub-heading">Image Steganography</h5>
-                      <p class="card-text">This project uses core javascript to implement steganography technique for image encryption/decryption.
-                         It has very clean and simple UI for the users to encrypt and decrypt images.
-                      </p>
-                      <ul>
-                        <li>Steganography</li>
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>Bootstrap</li>
-                        <li>Javascript</li>
-                      </ul>
-                    </div>
-                    <div class="card-footer text-center">
-                      <a class="btn btn-primary" href="https://codepen.io/Mridul0001/full/jObRyre" target="_blank">Check out this project</a>
-                    </div>
-                  </div>
-                  <div class="card item proj-card">
-                    <img src="res/images/gsc.png" class="card-img-top" alt="image for representational purpose">
-                    <div class="card-body">
-                      <h5 class="card-title sub-heading">Batch Grayscale Conveter</h5>
-                      <p class="card-text">I made this project during my enrollment in "Java Programming and Software Engineering Fundamentals Specialization" by Duke University on Coursera.
-                       All the project images in this website are converted to grayscale using this project.</p>
-                       <ul>
-                         <li>Java</li>
-                         <li>File Manipulation</li>
-                         <li>Image processing</li>
-                        </ul>
-                    </div>
-                    <div class="card-footer text-center">
-                      <a class="btn btn-primary" href="https://github.com/Mridul0001/Coursera/tree/master/Java%20Programming:%20Solving%20Problems%20with%20Software/Batch%20Grayscale%20Images" target="_blank">Check out this project</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row text-center">
-              <div class="col">
-                <a href="https://github.com/Mridul0001" class="btn btn-primary btn-lg view-button" target="_blank">View all Projects on GitHub</a>
-              </div>
-            </div>
-
-            <!-- Education and Certifications -->
-            <div class="row top-level-heading"  id="certification">
-                <div class="col">Education &amp; Certifications</div>
-            </div>
-            <div class="row">
-              <div class="card mb-3 edu-card" style="max-width: 540px;">
-                <div class="row no-gutters">
-                  <div class="col-md-4">
-                    <a href="https://www.cuchd.in/" target="_blank"><img src="res/logo/cu-logo.png" class="card-img" alt="my university logo"></a>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title sub-heading">Computer Science Engineering</h5>
-                      <p class="card-text">I earned my Bachelor's degree from Chandigarh University. I learned a lot at this place.
-                      During my 4 years of engineering at Chandigarh University, I met some good mentors and even best batchmates.</p>
-                      </div>
-                    <div class="card-footer">
-                      <small class="text-muted foot-text">Chandigarh University</small><br />
-                      <small class="text-muted foot-text">Attended: Jul 2016 - Jun 2020</small>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="card mb-3 edu-card" style="max-width: 540px;">
-                <div class="row no-gutters">
-                  <div class="col-md-4">
-                    <a href="https://www.freecodecamp.org/" target="_blank"><img src="res/logo/fcc-logo.png" class="card-img" alt="freecodecamp logo"></a>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title sub-heading">Full Stack Web Development</h5>
-                      <p class="card-text">I knew nothing about Web Development prior to starting on freeCodeCamp.
-                        And here I am now, a Fullstack web developer. Such an amazing platform with awesome community.<br /><br />
-                      </p>
-                    </div>
-                    <div class="card-footer">
-                      <small class="text-muted foot-text">freeCodeCamp</small><br />
-                      <small class="text-muted foot-text">Attended: Dec 2019 - Jul 2020</small>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row text-center">
-              <div class="col">
-                <a href="https://www.linkedin.com/in/mridul-mahajan-204423178/" class="btn btn-primary btn-lg view-button" target="_blank">View all Certifications on Linkedin</a>
-              </div>
-            </div>
-
-            <!---Experience--->
-            <div class="row top-level-heading" id="experience">
-                <div class="col">Experience</div>
-            </div>
-            <div class="row row-cols-md-1 row-cols-1">
-                <div class="card text-center exp-card bg-primary text-white">
-                    <div class="card-header sub-heading">
-                        Software Engineer
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title company-name">Organisation: Optum Global Solutions</h5>
-                        <p class="card-text">Currently working as an Software engineer at Optum (a part of <strong>UnitedHealth Group</strong>).</p>
-                    </div>
-                    <div class="card-footer foot-text">
-                        Joined: 17<sup>th</sup> August 2020 - Present
-                    </div>
-                </div>
-            </div>
-
-            <!-- Connect -->
-            <div class="row top-level-heading">
-              <div class="col">Connect with me</div>
-            </div>
-            <div class="row text-center connect-section">
-              <div class="col">
-                <a class="connect-icon" href="https://www.linkedin.com/in/mridul-mahajan-204423178/" target="_blank" data-toggle="tooltip" title="linkedin" data-placement="bottom"><img src="res/icons/linkedin.svg" alt="linkedin icon" class="connect-icon-svg"></a>
-                <a class="connect-icon" href="https://twitter.com/MridulM60284214" target="_blank" data-toggle="tooltip" title="twitter" data-placement="bottom"><img src="res/icons/twitter.svg" alt="twitter icon" class="connect-icon-svg"></a>
-                <a class="connect-icon" href="https://codepen.io/Mridul0001" target="_blank" data-toggle="tooltip" title="codepen" data-placement="bottom"><img src="res/icons/codepen.svg" alt="codepen icon" class="connect-icon-svg"></a>
-                <a class="connect-icon" href="https://github.com/Mridul0001" target="_blank" data-toggle="tooltip" title="github" data-placement="bottom"><img src="res/icons/github.svg" alt="github icon" class="connect-icon-svg"></a>
-                <a class="connect-icon" href="mailto:mridulmahajan0001@gmail.com" target="_blank" data-toggle="tooltip" title="email" data-placement="bottom"><img src="res/icons/mail.svg" alt="emain icon" class="connect-icon-svg"></a>
-              </div>
-            </div>
-            <hr>
+<body>
+    <nav></nav>
+    <section class="header"></section>
+    <section class="menu">
+        <div class="circle">
+            <img class="profile-pic" src="./resources/profile.jpeg" alt="profile picture" title="Profile picture"
+                loading="lazy" height="150px" width="150px" />
         </div>
-
-        <!-- Footer -->
-        <div class="row footer">
-          <div class="col text-white text-center">
-            All product names, logos, and brands are property of their respective owners.
-          </div>
+        <div class="heading">
+            <h1>Mridul Mahajan - Full Stack Developer</h1>
+            <h2>Software Engineer | Freelancer</h2>
         </div>
+        <div class="action-items">
+            <span class="additional-links">
+                <a href="#contact" aria-label="Contact Me"><i class="fa fa-envelope-o fa-lg"></i></a>
+            </span>
+            <span class="resume-link">
+                <a href="https://drive.google.com/file/d/1mSq3zAafiEWSSJzyUYMi8EF2U72behSs/view?usp=drive_link"
+                    target="_blank">Resume</a>
+            </span>
+            <span class="hire-me">
+                <a href="https://www.upwork.com/freelancers/~01317dcf6fd192f1bd" target="_blank">Hire Me</a>
+            </span>
+        </div>
+    </section>
+    <section class="about">
+        <div class="about-pirmary">
+            <h3>About Me</h3>
+            <p>I am a seasoned Senior Software Engineer with a dynamic background spanning <strong>more than three
+                    years</strong>, specializing in
+                crafting intricate and scalable systems. Proficient across the entire development spectrum, I adeptly
+                navigate <strong>Backend</strong>, <strong>Frontend</strong>, <strong>DevOps</strong> realms, and
+                <strong>System Design</strong>, ensuring seamless end-to-end project
+                execution. My expertise extends to crafting robust unit tests, assuring the reliability of the software
+                solutions I architect. Beyond my technical prowess, I find joy in the vibrant world of anime, where I
+                immerse myself in its diverse narratives. With a proven track record of delivering multifaceted projects
+                and a passion for anime, I bring a unique blend of skill and enthusiasm to every endeavor. <a
+                    href="#experience" class="experience-link">See Experience</a>
+            </p>
+        </div>
+        <div class="about-secondary">
+            <div class="column">
+                <h4>Location</h4>
+                <span class="about-secondary-content"><img src="./resources/india.png" alt="indian flag icon"
+                        title="Indian Flag" loading="lazy" height="24px" width="24px" />Noida, India</span>
+            </div>
+            <div class="column">
+                <h4>Linkedin</h4>
+                <span class="about-secondary-content-without-img"><a href="https://www.linkedin.com/in/mridul0001/"
+                        target="_blank">@mridul0001 &#8599;</a></span>
+            </div>
+            <div class="column">
+                <h4>Email</h4>
+                <span class="about-secondary-content-without-img"><a href="mailto:connect@mridulmahajan.com"
+                        target="_blank">connect@mridulmahajan.com &#8599;</a></span>
+            </div>
+            <div class="column">
+                <h4>Github</h4>
+                <span class="about-secondary-content-without-img"><a href="https://github.com/Mridul0001"
+                        target="_blank">@Mridul0001 &#8599;</a></span>
+            </div>
+        </div>
+    </section>
+    <hr />
+    <section class="protfolio">
+        <h3>Portfolio</h3>
+        <div class="protfolio-container">
+            <div class="protfolio-img-container"><img src="./resources/vep.png" alt="First Project"
+                    title="First Project" loading="lazy" /></div>
+            <div class="protfolio-img-container"><a href="https://rewallet.de/en/blog/" target="_blank"><img
+                        src="./resources/rewallet.png" alt="Second Project" title="Second Project" loading="lazy" /></a>
+            </div>
+            <div class="protfolio-img-container"><a href="https://tanzania-travelers.ch/" target="_blank"><img
+                        src="./resources/tanzania.png" alt="Third Project" title="Third Project" loading="lazy" /></a>
+            </div>
+        </div>
+    </section>
+    <hr />
+    <section class="testimonials">
+        <h3>Testimonials</h3>
+        <div class="testimonials-container">
+            <div class="card">
+                <span class="quotation-mark"></span>
+                <p>I have previously worked with Mridul and I definitely recommend his services. Mridul is easy-going,
+                    and finishes his job promptly. He gives good suggestions on what can be improved or added to the
+                    project to enhance its capability. Not to mention, the support offered after the job has been
+                    completed is undoubtedly the best I have experienced.</p>
+                <div class="client-rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <p class="client-name">~ Karan Shah (via Upwork)</p>
+                </div>
+            </div>
+            <div class="card">
+                <span class="quotation-mark"></span>
+                <p>I had a great experience working with Mridul! His positive attitude and excellent communication
+                    skills made the project a success. He completed the assigned tasks well, and I was impressed by his
+                    willingness to learn and develop his skills in Hugo. While he may benefit from further practice and
+                    development before taking on a larger project lead role, this just goes to show his humility and
+                    dedication to improving. I appreciate his work and look forward to working with him again in the
+                    future!</p>
+                <div class="client-rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star-half checked"></span>
+                    <p class="client-name">~ Remy (via Upwork)</p>
+                </div>
+            </div>
+            <div class="card">
+                <span class="quotation-mark"></span>
+                <p>Mirdul helped us with a project for our HUGO template that is used on our blog. His overall quality
+                    of work and speed of delivery was immaculate. Smaller changes were implemented according to our
+                    briefing in no time. We would definitely hire Mirdul again and would recommend him to anyone valuing
+                    high quality work in all aspects and a great line of communication throughout the project.</p>
+                <div class="client-rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <p class="client-name">~ Bastian (via Upwork)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr />
+    <section class="education-experience" id="experience">
+        <h3>Education & Experience</h3>
+        <div class="education-experience-container">
+            <div class="timeline-block timeline-block-right">
+                <div class="marker"></div>
+                <div class="timeline-content">
+                    <h4>Senior Software Engineer</h4>
+                    <span>99acres (Infoedge), Mar 2022 - Present</span>
+                    <p>
+                    <p>
+                        I joined <strong>99acres</strong> as a senior software engineer and immediately tackled a
+                        challenging project, developing a dynamic auto-description generation feature for properties
+                        based on multiple attributes. I optimized the process to generate real-time descriptions from
+                        millions of combinations in under 10 milliseconds, introducing me to <strong>Apache
+                            Velocity</strong>. Later, I took ownership of the SEO service, handling ~10 million daily
+                        traffic, and optimized it with technologies like <strong>Caffeine Cache</strong> and
+                        <strong>Redis</strong>. I upgraded the service from <strong>Java 8 to Java 17</strong> and
+                        switched to <strong>OpenJ9</strong> from HotSpot VM, reducing memory footprint by <strong>~50%</strong> and
+                        latency by <strong>~15%</strong>. In addition, I designed the system for FAQs and dynamic metadata generation
+                        from scratch, exposing me to the intricacies of system design and expanding my knowledge of both
+                        relational and NoSQL databases, including <strong>MongoDB</strong> and <strong>MySQL</strong>.
+                    </p>
+                    </p>
+                </div>
+            </div>
 
-        <!-- jQuery -->
-        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <!-- Owl Carousel -->
-        <script src="plugins/owlcarousel/owl.carousel.js"></script>
-        <!-- Bootstrap scripts -->
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-        <!-- Local js -->
-        <script src="js/main.js"></script>
-    </body>
+            <div class="timeline-block timeline-block-left">
+                <div class="marker"></div>
+                <div class="timeline-content">
+                    <h4>Associate Software Engineer I</h4>
+                    <span>Optum (UHG), Aug 2020 - Mar 2022</span>
+                    <p>
+                        I thrived in an <strong>Agile-driven development environment</strong>, where I contributed
+                        significantly to various projects. I excelled in developing <strong>RESTful APIs</strong> using
+                        <strong>Spring Boot</strong> and crafting responsive front-end applications with
+                        <strong>Angular</strong>. My commitment to excellence shone through as I efficiently handled
+                        high-priority defects, delivering timely fixes. Additionally, I designed and implemented a
+                        <strong>reusable Angular widget from scratch</strong>, which found utility across multiple
+                        applications. Notably, I achieved an impressive <strong>97 percent code coverage</strong>
+                        through rigorous testing with <strong>Jasmine and Karma</strong>. My innovative thinking came to
+                        the fore when I proposed migrating application configurations from a <strong>relational database
+                            to AEM</strong>, and successfully executed the migration of reference data, resulting in a
+                        <strong>20 percent reduction in app initialization time</strong> and enhanced efficiency.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-block timeline-block-right">
+                <div class="marker"></div>
+                <div class="timeline-content">
+                    <h4>B.E. Computer Science & Engineering</h4>
+                    <span>Chandigarh University, Jul 2016 - Jul 2020</span>
+                    <p>My four-year experience at Chandigarh University, where I studied Computer Science from 2016 to
+                        2020, was transformative. I focused on core subjects like <strong>Java</strong>,
+                        <strong>RDBMS</strong>, <strong>Data Structures and
+                            Algorithms</strong>, and applied this knowledge to intriguing <storng>IoT</storng> projects
+                        such as <a class="projects-link"
+                            href="https://www.instructables.com/Control-House-Lights-With-Google-Assistant-Using-A/"
+                            target="_blank">Voice-controlled smart
+                            lights using Arduino</a>, <a class="projects-link"
+                            href="https://www.instructables.com/Mini-Weather-Station-Using-Arduino-and-ThingSpeak/"
+                            target="_blank">Mini weather station</a>, and an autonomous braking system. I also honed my
+                        soft skills as an elite speaker of the Soft Skill Club. This journey laid a solid foundation for
+                        my career as a software engineer, equipping me with technical expertise, innovation, and
+                        effective communication skills that continue to guide me in my professional life.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <form action="https://formspree.io/f/xaygoare" method="POST" onsubmit="return validateForm(this)">
+                <input type="email" name="email" placeholder="Email*" required>
+                <textarea name="message" placeholder="Message*" maxlength="300" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>Design inspired by templates created by <a href="https://dribbble.com/jordanhughes" target="_blank">Jordan Hughes</a>.</p>
+        <p>All icons, images, and names are the property of their respective owners.</p>
+    </footer>
+    <script>
+        function validateForm(form) {
+            const email = form.email.value;
+            const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+            return emailPattern.test(email);
+        }
+    </script>
+</body>
+
 </html>

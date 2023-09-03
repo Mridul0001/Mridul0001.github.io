@@ -1,0 +1,481 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fcfcfe;
+}
+
+.header {
+    height: 120px;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.circle {
+    margin-left: 3%;
+    transform: translateY(-50%);
+}
+
+.circle .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.heading {
+    line-height: 0.5;
+    margin-left: 5px;
+}
+
+.heading h1 {
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.heading h2 {
+    font-size: small;
+    color: gray;
+    font-weight: normal;
+}
+
+.action-items {
+    margin-left: auto;
+    margin-right: 3%;
+    margin-top: 1%;
+}
+
+.action-items span {
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: small;
+}
+
+.hire-me {
+    background-color: #7f56da;
+    box-shadow: 0 1.5px 5px rgb(0 0 0 / 0.2);
+    transition: 0.3s;
+}
+
+.hire-me:hover {
+    filter: brightness(.95);
+}
+
+.hire-me a {
+    color: white !important;
+}
+
+.resume-link {
+    border: 0.5px solid #abadb5;
+    box-shadow: 0 1.5px 5px rgb(0 0 0 / 0.2);
+    margin-right: 5px;
+}
+
+.additional-links {
+    border: 0.5px solid #abadb5;
+    box-shadow: 0 1.5px 5px rgb(0 0 0 / 0.2);
+    font-weight: bolder;
+    margin-right: 5px;
+}
+
+.about {
+    margin: -70px 3% 0% 3%;
+    display: flex;
+    flex-direction: row;
+}
+
+.about-pirmary {
+    width: 60%;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+.about-secondary {
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+
+.column {
+    flex: 40%;
+}
+
+.about-secondary-content {
+    display: flex;
+    align-items: center;
+    font-size: small;
+    font-weight: bold;
+}
+
+.about-secondary-content-without-img {
+    display: flex;
+    align-items: center;
+}
+
+.about-secondary-content img {
+    margin-right: 5px;
+}
+
+.projects-link{
+    display: inline;
+    text-decoration: underline;
+}
+
+h3 {
+    font-weight: normal;
+}
+
+h4 {
+    font-weight: normal;
+    color: gray;
+}
+
+p {
+    color: gray;
+}
+
+a {
+    text-decoration: none;
+    color: #7e4db1;
+    display: block;
+    position: relative;
+    width: fit-content;
+}
+
+.column a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #7e4db1;
+    transition: opacity 300ms, transform 300ms;
+    opacity: 0;
+    transform: scale(0);
+    transform-origin: center;
+}
+
+.column a:hover::after,
+.column a:focus::after {
+    opacity: 1;
+    transform: translate3d(0, 0.2em, 0);
+    transform: scale(1);
+}
+
+hr {
+    border-top: 0.5px solid #f4f3f6;
+}
+
+.experience-link{
+    text-decoration: underline;
+}
+
+.education-experience,
+.protfolio,
+.testimonials {
+    margin: 0 3% 0 3%;
+}
+
+.education-experience-container {
+    width: 80%;
+    padding: 50px 0;
+    margin: 50px auto 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.education-experience-container:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -1px;
+    width: 2px;
+    height: 100%;
+    background: #CCD1D9;
+    z-index: 1
+}
+
+.timeline-block {
+    width: -webkit-calc(50% + 8px);
+    width: -moz-calc(50% + 8px);
+    width: calc(50% + 8px);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    justify-content: space-between;
+    clear: both;
+}
+
+.timeline-block-right {
+    float: right;
+}
+
+.timeline-block-left {
+    float: left;
+    direction: rtl
+}
+
+.marker {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 2px solid #F5F7FA;
+    background: #7e4db1;
+    margin-top: 10px;
+    z-index: 9999
+}
+
+.timeline-content {
+    width: 95%;
+    padding: 0 15px;
+    color: #666
+}
+
+.timeline-content h4 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: black;
+}
+
+.timeline-content span {
+    font-size: 15px;
+    color: #a4a4a4;
+}
+
+.timeline-content p {
+    font-size: 14px;
+    line-height: 1.5em;
+    word-spacing: 1px;
+    color: #888;
+}
+
+.protfolio-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.protfolio-img-container {
+    flex: 25%;
+    padding: 25px;
+    transition: 0.3s;
+}
+
+.protfolio-img-container img {
+    max-width: 100%;
+}
+
+.protfolio-img-container:hover {
+    transform: scale(1.05);
+}
+
+.testimonials-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card {
+    max-width: 20%;
+    margin: 25px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 1px 5px rgb(0 0 0 / 0.2);
+    border-radius: 4px;
+    text-align: center;
+}
+
+.card p {
+    color: black;
+    font-style: italic;
+}
+
+.card .checked {
+    color: #158b07;
+}
+
+.quotation-mark:before {
+    color: #158b07;
+    content: "\f10e";
+    font-family: 'FontAwesome';
+    font-size: 32px;
+    font-style: normal;
+}
+
+.contact {
+    /* background-color: #e9ecf5; */
+    background: linear-gradient(#fcfcfe 0%, #e9ecf5 100%);
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    padding: 20px;
+    background: #e9ecf5;
+    text-align: center;
+    font-style: italic;
+    line-height: 1;
+    font-size: small;
+}
+
+footer a{
+    display: inline;
+    text-decoration: underline;
+}
+
+.contact-container {
+    max-width: 30%;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.contact-container input {
+    width: 100%;
+    border: none;
+    background-color: white;
+    padding: 20px;
+}
+
+.contact-container textarea {
+    width: 100%;
+    overflow: auto;
+    resize: none;
+    height: 160px;
+    margin-top: 15px;
+    border: none;
+    background-color: white;
+    padding: 20px;
+}
+
+.contact-container button {
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    margin-top: 15px;
+    width: 30%;
+    border: none;
+    border-radius: 4px;
+    background-color: #7f56da;
+    transition: 0.3s;
+}
+
+.contact-container button:hover {
+    filter: brightness(.95);
+}
+
+
+@media screen and (max-width: 960px) {
+    .education-experience-container:before {
+        left: 8px;
+        width: 2px;
+    }
+
+    .timeline-block {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .timeline-block-right {
+        float: none;
+    }
+
+    .timeline-block-left {
+        float: none;
+        direction: ltr;
+    }
+
+    .protfolio-container {
+        flex-direction: column;
+    }
+
+    .contact-container {
+        max-width: 100%;
+    }
+
+    .card {
+        max-width: 25%;
+        margin: 5px;
+    }
+
+    .heading {
+        line-height: 1.2;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .testimonials-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        max-width: 85%;
+        margin: 10px;
+    }
+
+    .menu{
+        flex-direction: column;
+    }
+
+    .heading{
+        margin-top: -75px;
+        margin-left: 3%;
+    }
+
+    .action-items{
+        margin-left: 3%;
+    }
+
+    .about{
+        margin-top: 1%;
+        flex-direction: column;
+    }
+
+    .about-pirmary{
+        width: 100%;
+    }
+
+    .about-secondary{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .contact-container input {
+        width: 85%;
+        padding: 10px;
+    }
+    
+    .contact-container textarea {
+        width: 85%;
+        height: 130px;
+        padding: 10px;
+    }
+    
+    .contact-container button {
+        padding: 15px;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column{
+        flex: 100%;
+    }
+}
