@@ -501,4 +501,8 @@ footer a{
     .column{
         flex: 100%;
     }
+
+    .heading {
+        line-height: normal;
+    }
 }
