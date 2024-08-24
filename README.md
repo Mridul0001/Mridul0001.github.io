@@ -19,9 +19,13 @@ I am a seasoned Senior Software Engineer with a dynamic background spanning more
 
 Here's a summary of my educational background and work experience:
 
+- **Lead Engineer**
+  - Company: 99acres (Infoedge)
+  - Duration: Apr 2024 - Present
+
 - **Senior Software Engineer**
   - Company: 99acres (Infoedge)
-  - Duration: Mar 2022 - Present
+  - Duration: Apr 2022 - Mar 2024
 
 - **Associate Software Engineer I**
   - Company: Optum (UHG)
@@ -33,7 +37,7 @@ Here's a summary of my educational background and work experience:
 
 ## Contact Me
 
-Feel free to reach out to me via email at [mridulmahajan0001@gmail.com](mailto:mridulmahajan0001@gmail.com) or through my [LinkedIn](https://www.linkedin.com/in/mridul0001/) profile. 
+Feel free to reach out to me via email at [mridulmahajan0001@gmail.com](mailto:mridulmahajan0001@gmail.com) or through my [LinkedIn](https://www.linkedin.com/in/developer-mridulmahajan) profile. 
 
 ## Technologies
 
